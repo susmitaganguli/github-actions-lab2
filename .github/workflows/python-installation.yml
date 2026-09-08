@@ -7,7 +7,7 @@ jobs:
   build:
     strategy:
       matrix:
-       os: [macos-14, windows-latest]
+       os: [macos-14, windows-latest, ubuntu-latest]
        py-version: [3.12]
        exclude:
          - os:  macos-14
